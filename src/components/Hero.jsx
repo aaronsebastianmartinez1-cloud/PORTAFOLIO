@@ -1,5 +1,5 @@
 import './Hero.css'
-
+import perfilImg from '../assets/perfil.jpg'
 export default function Hero() {
   return (
     <section className="hero" id="hero">
@@ -23,7 +23,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-image">
-  <img src="/src/assets/perfil.jpg" className="hero-avatar" alt="Aaron Sebastian" />
+  <img src={perfilImg} className="hero-avatar" alt="Aaron Sebastian" />
 </div>
       </div>
     </section>
