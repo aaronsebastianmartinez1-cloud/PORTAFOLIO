@@ -1,0 +1,66 @@
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-card: #1a1a1a;
+  --accent: #f5c518;
+  --accent-hover: #e6b800;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --border: #2a2a2a;
+  --font: 'Segoe UI', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font);
+  line-height: 1.6;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.section-title span {
+  color: var(--accent);
+}
+
+.section-line {
+  width: 60px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin-bottom: 48px;
+}
+[data-theme="light"] {
+  --bg-primary: #f5f5f0;
+  --bg-secondary: #ebebeb;
+  --bg-card: #ffffff;
+  --accent: #c9a800;
+  --accent-hover: #b89700;
+  --text-primary: #111111;
+  --text-secondary: #555555;
+  --border: #d0d0d0;
+}
