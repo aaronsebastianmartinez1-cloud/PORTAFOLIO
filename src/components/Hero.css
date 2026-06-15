@@ -134,9 +134,3 @@
   .hero-buttons { justify-content: center; }
   .hero-avatar, .hero-image-placeholder { width: 200px; height: 200px; }
 }
-.hero-profile-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Esto evita que la foto se deforme */
-  border-radius: 50%; /* Por si quieres que la foto sea redonda */
-}
