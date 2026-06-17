@@ -54,7 +54,7 @@ export default function Asistente() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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'
+          'Authorization': 'Bearer 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'
         },
         body: JSON.stringify({
           model: 'llama-3.1-8b-instant',
