@@ -10,7 +10,7 @@ export default function Hero() {
           <p className="hero-role">Estudiante de Ingeniería de Sistemas</p>
           <p className="hero-desc">
             Estudiante UAI enfocado en desarrollo web y bases de datos. 
-            Apasionado por construir soluciones limpias y funcionales. Y eternamente Enamorado de Gila❤
+            Apasionado por construir soluciones limpias y funcionales. 
           </p>
           <div className="hero-buttons">
             <a href="https://aaronsebastianmartinez1-cloud.github.io/HTML/ejemplo-cv.pdf" 
